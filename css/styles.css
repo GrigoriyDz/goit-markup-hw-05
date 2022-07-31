@@ -445,7 +445,7 @@ body {
 }
 
 .social-icon {
-  transition: --color1 250ms var(--timing-function);
+  transition: --color1  250ms var(--timing-function);
 }
 .social-link:hover .social-icon {
   --color1: rgba(255, 255, 255, 1);
@@ -455,7 +455,7 @@ body {
   border: 1px solid rgba(33, 150, 243, 1);
 }
 .social-link:focus .social-icon {
-  --color1: rgba(255, 255, 255, 1);
+  --color1: fill: var(--color1, #afb1b8);
 }
 /* Clients */
 
