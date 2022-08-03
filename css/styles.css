@@ -137,7 +137,6 @@ body {
 }
 .header-e-mail:hover {
   color: rgba(33, 150, 243, 1);
-  transition: ;
 }
 .header-e-mail:hover .header-icon {
   fill: rgb(33, 150, 243);
@@ -426,8 +425,7 @@ body {
   padding: 0;
   margin: 0;
 }
-.social-item {
-}
+
 .social-link {
   display: flex;
   width: 44px;
@@ -445,17 +443,18 @@ body {
 }
 
 .social-icon {
-  transition: --color1  250ms var(--timing-function);
+  fill: rgba(175, 177, 184, 1);
+  transition: fill 250ms var(--timing-function);
 }
 .social-link:hover .social-icon {
-  --color1: rgba(255, 255, 255, 1);
+  fill: rgba(255, 255, 255, 1);
 }
 .social-link:focus {
   background-color: rgba(33, 150, 243, 1);
   border: 1px solid rgba(33, 150, 243, 1);
 }
 .social-link:focus .social-icon {
-  --color1: fill: var(--color1, #afb1b8);
+  fill: rgba(255, 255, 255, 1);
 }
 /* Clients */
 
@@ -495,19 +494,15 @@ body {
   border-radius: 4px;
 }
 .clients-icon {
-  transition: --color2 250ms var(--timing-function);
-}
-.clients-icon {
-  transition: --color3 250ms var(--timing-function);
+  fill: rgba(175, 177, 184, 1);
+  transition: fill 250ms var(--timing-function);
 }
 
 .clients-link:hover .clients-icon {
-  --color2: rgba(33, 150, 243, 1);
-  --color3: rgba(33, 150, 243, 1);
+  fill: rgba(33, 150, 243, 1);
 }
 .clients-link:focus .clients-icon {
-  --color2: rgba(33, 150, 243, 1);
-  --color3: rgba(33, 150, 243, 1);
+  fill: rgba(33, 150, 243, 1);
 }
 
 /* Footer */
@@ -614,5 +609,5 @@ body {
 }
 
 .footer-social-icon {
-  --color1: rgba(255, 255, 255, 1);
+  fill: rgba(255, 255, 255, 1);
 }
